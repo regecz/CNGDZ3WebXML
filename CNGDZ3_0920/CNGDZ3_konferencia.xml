@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<konferencia>
+    <cim>Modern Web Technologies Conference 2024</cim>
+    <hallgatok>
+        <hallgato>
+            <nev>Kovács Péter</nev>
+            <lakcim>Budapest, Fő utca 1.</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Nagy Anna</nev>
+            <lakcim>Debrecen, Kossuth utca 12.</lakcim>
+        </hallgato>
+        <hallgato>
+            <nev>Szabó István</nev>
+            <lakcim>Szeged, Petőfi utca 3.</lakcim>
+        </hallgato>
+    </hallgatok>
+    <helyszin>Budapest Kongresszusi Központ</helyszin>
+    <eloado>
+        <nev>Dr. Kiss Gábor</nev>
+        <adoszam>12345678-1-42</adoszam>
+        <lakcim>Budapest, Rákóczi út 45.</lakcim>
+    </eloado>
+    <datum>2024-09-15</datum>
+</konferencia>

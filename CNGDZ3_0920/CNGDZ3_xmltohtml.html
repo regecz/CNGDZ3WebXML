@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Órarend</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #f9f9f9;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+            font-weight: bold;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;">Órarend</h1>
+    <table id="orarend">
+        <thead>
+            <tr>
+                <th>Kurzusnév</th>
+                <th>Nap</th>
+                <th>Időtartam</th>
+                <th>Helyszín</th>
+                <th>Oktató</th>
+                <th>Szak</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <script>
+        fetch('CNGDZ3_orarend.xml')
+            .then(response => response.text())
+            .then(xmlString => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlString, "text/xml");
+
+                const tableBody = document.querySelector("#orarend tbody");
+
+                const orak = xmlDoc.getElementsByTagName("ora");
+                for (let i = 0; i < orak.length; i++) {
+                    const ora = orak[i];
+                    const kurzusnev = ora.getElementsByTagName("kurzusnev")[0].textContent;
+                    const nap = ora.getElementsByTagName("nap")[0].textContent;
+                    const tol = ora.getElementsByTagName("tol")[0].textContent;
+                    const ig = ora.getElementsByTagName("ig")[0].textContent;
+                    const helyszin = ora.getElementsByTagName("helyszin")[0].textContent;
+                    const oktato = ora.getElementsByTagName("oktato")[0].textContent;
+                    const szak = ora.getElementsByTagName("szak")[0].textContent;
+
+                    const row = document.createElement("tr");
+                    row.innerHTML = `
+                        <td>${kurzusnev}</td>
+                        <td>${nap}</td>
+                        <td>${tol} - ${ig}</td>
+                        <td>${helyszin}</td>
+                        <td>${oktato}</td>
+                        <td>${szak}</td>
+                    `;
+                    tableBody.appendChild(row);
+                }
+                const lastRow = document.createElement("tr");
+                lastRow.innerHTML = '<td colspan="6" style="text-align:center">Készítette: Regecz Márk</td>';
+                tableBody.appendChild(lastRow);
+            })
+            .catch(error => console.error('Error fetching the XML file:', error));
+    </script>
+</body>
+</html>
