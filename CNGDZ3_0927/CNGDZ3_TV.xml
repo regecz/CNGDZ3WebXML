@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CNGDZ3>
+    <vásárlás>
+        <dátum>2024-11-21</dátum>
+        <darab>3</darab>
+        <termék>
+            <kód>T67890</kód>
+            <név>4K TV</név>
+            <ár>150000</ár>
+            <méret>65 hüvelyk</méret>
+        </termék>
+        <vásárló>
+            <VID>V002</VID>
+            <név>Nagy János</név>
+            <lakcím>
+                <irányítószám>5678</irányítószám>
+                <város>Debrecen</város>
+                <utca>Nagyerdei körút</utca>
+                <házszám>10</házszám>
+            </lakcím>
+            <fizetési_mód>Készpénz</fizetési_mód>
+        </vásárló>
+    </vásárlás>
+</CNGDZ3>

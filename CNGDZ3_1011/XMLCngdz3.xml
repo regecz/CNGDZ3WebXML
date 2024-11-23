@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Vendeglatas>
+    <Etterem>
+        <Foszakacs>
+            <Fkod>FSZ123</Fkod>
+            <Nev>Kovács Péter</Nev>
+            <Eletkor>45</Eletkor>
+        </Foszakacs>
+        <Szakacs>
+            <SzKod>SZ345</SzKod>
+            <Nev>Szabó Anna</Nev>
+            <Reszleg>Főzőkonyha</Reszleg>
+            <Vegzettseg>Chef de Cuisine</Vegzettseg>
+        </Szakacs>
+        <Gyakornok>
+            <Gykod>GY789</Gykod>
+            <Nev>Németh Gábor</Nev>
+            <Gyakorlat>
+                <Kezdete>2024-05-01</Kezdete>
+                <Idotartam>6</Idotartam>
+            </Gyakorlat>
+            <Muszak>Délutános</Muszak>
+        </Gyakornok>
+        <Rendeles>
+            <Osszeg>4500</Osszeg>
+            <Etel>Pörkölt</Etel>
+            <Vendeg>
+                <Vkod>V12345</Vkod>
+                <Nev>Juhász László</Nev>
+                <Eletkor>30</Eletkor>
+                <Cim>
+                    <Varos>Pécs</Varos>
+                    <Utca>Fő utca</Utca>
+                    <Hazszam>12</Hazszam>
+                </Cim>
+            </Vendeg>
+        </Rendeles>
+        <Csillag>5</Csillag>
+        <Cim>
+            <Varos>Budapest</Varos>
+            <Utca>Margit körút</Utca>
+            <Hazszam>45</Hazszam>
+        </Cim>
+        <Nev>Óvári Étterem</Nev>
+        <Ekod>EK123456789</Ekod>
+    </Etterem>
+</Vendeglatas>

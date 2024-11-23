@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="CNGDZ3">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="vásárlás" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dátum" type="xs:date"/>
+                            <xs:element name="darab" type="xs:positiveInteger"/>
+
+                            <xs:element name="termék">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="kód" type="xs:string"/>
+                                        <xs:element name="név" type="xs:string"/>
+                                        <xs:element name="ár" type="xs:decimal"/>
+                                        <xs:element name="méret" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            
+                            <xs:element name="vásárló">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="VID" type="xs:string"/>
+                                        <xs:element name="név" type="xs:string"/>
+
+                                        <xs:element name="lakcím">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="irányítószám" type="xs:string"/>
+                                                    <xs:element name="város" type="xs:string"/>
+                                                    <xs:element name="utca" type="xs:string"/>
+                                                    <xs:element name="házszám" type="xs:string"/>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        
+                                        <xs:element name="fizetési_mód" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>
