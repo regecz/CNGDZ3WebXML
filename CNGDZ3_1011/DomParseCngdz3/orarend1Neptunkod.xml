@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><orarend>
+    <ora id="o1" tipus="eloadas">
+        <kurzusnev>UNIX rendszergazda</kurzusnev>
+        <idopont>
+            <nap>2024-09-13</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>OnLine!</helyszin>
+        <oktato>Dr. Mileff Péter</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o2" tipus="eloadas">
+        <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
+        <idopont>
+            <nap>2024-09-13</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>OnLine!</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o3" tipus="eloadas">
+        <kurzusnev>Webes adatkezelő környezetek</kurzusnev>
+        <idopont>
+            <nap>2024-09-20</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>In/103</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o4" tipus="eloadas">
+        <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
+        <idopont>
+            <nap>2024-09-20</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>OnLine!</helyszin>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o5" tipus="eloadas">
+        <kurzusnev>Web technológiák 1.</kurzusnev>
+        <idopont>
+            <nap>2024-09-20</nap>
+            <tol>08:30</tol>
+            <ig>15:10</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o6" tipus="eloadas">
+        <kurzusnev>Webes adatkezelő környezetek</kurzusnev>
+        <idopont>
+            <nap>2024-09-27</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o7" tipus="eloadas">
+        <kurzusnev>UNIX rendszergazda</kurzusnev>
+        <idopont>
+            <nap>2024-09-27</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Mileff Péter</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o8" tipus="eloadas">
+        <kurzusnev>Web technológiák 1.</kurzusnev>
+        <idopont>
+            <nap>2024-09-27</nap>
+            <tol>08:30</tol>
+            <ig>15:10</ig>
+        </idopont>
+        <helyszin>In/103</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o9" tipus="eloadas">
+        <kurzusnev>Mobil programozási alapok</kurzusnev>
+        <idopont>
+            <nap>2024-10-05</nap>
+            <tol>08:30</tol>
+            <ig>15:10</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o10" tipus="eloadas">
+        <kurzusnev>Webes adatkezelő környezetek</kurzusnev>
+        <idopont>
+            <nap>2024-10-11</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o11" tipus="eloadas">
+        <kurzusnev>Elektrotechnika-elektronika</kurzusnev>
+        <idopont>
+            <nap>2024-10-11</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>III</helyszin>
+        <oktato>Szabó Norbert</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o12" tipus="eloadas">
+        <kurzusnev>Mobil programozási alapok</kurzusnev>
+        <idopont>
+            <nap>2024-10-11</nap>
+            <tol>08:30</tol>
+            <ig>15:10</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Agárdi Anita</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o13" tipus="eloadas">
+        <kurzusnev>UNIX rendszergazda</kurzusnev>
+        <idopont>
+            <nap>2024-11-08</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>In/202</helyszin>
+        <oktato>Dr. Mileff Péter</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o14" tipus="eloadas">
+        <kurzusnev>Windows rendszergazda</kurzusnev>
+        <idopont>
+            <nap>2024-11-08</nap>
+            <tol>08:30</tol>
+            <ig>11:50</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Wagner György</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o15" tipus="eloadas">
+        <kurzusnev>Elektrotechnika-elektronika</kurzusnev>
+        <idopont>
+            <nap>2024-11-15</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>X</helyszin>
+        <oktato>Szabó Norbert</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o16" tipus="eloadas">
+        <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
+        <idopont>
+            <nap>2024-11-15</nap>
+            <tol>08:30</tol>
+            <ig>11:50</ig>
+        </idopont>
+        <helyszin>In/15</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o17" tipus="eloadas">
+        <kurzusnev>Elektrotechnika-elektronika</kurzusnev>
+        <idopont>
+            <nap>2024-11-22</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>X</helyszin>
+        <oktato>Szabó Norbert</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o18" tipus="eloadas">
+        <kurzusnev>Windows rendszergazda</kurzusnev>
+        <idopont>
+            <nap>2024-11-22</nap>
+            <tol>08:30</tol>
+            <ig>11:50</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Wagner György</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o19" tipus="eloadas">
+        <kurzusnev>UNIX rendszergazda</kurzusnev>
+        <idopont>
+            <nap>2024-11-29</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>In/202</helyszin>
+        <oktato>Dr. Mileff Péter</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o20" tipus="eloadas">
+        <kurzusnev>Mesterséges intelligencia alapok</kurzusnev>
+        <idopont>
+            <nap>2024-11-29</nap>
+            <tol>08:30</tol>
+            <ig>11:50</ig>
+        </idopont>
+        <helyszin>In/114</helyszin>
+        <oktato>Fazekas Levente</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o21" tipus="eloadas">
+        <kurzusnev>Webes adatkezelő környezetek</kurzusnev>
+        <idopont>
+            <nap>2024-12-06</nap>
+            <tol>12:30</tol>
+            <ig>15:50</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Dr. Bednarik László</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o22" tipus="eloadas">
+        <kurzusnev>Windows rendszergazda</kurzusnev>
+        <idopont>
+            <nap>2024-12-06</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Wagner György</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o23" tipus="eloadas">
+        <kurzusnev>Elektrotechnika-elektronika</kurzusnev>
+        <idopont>
+            <nap>2024-12-06</nap>
+            <tol>12:20</tol>
+            <ig>15:40</ig>
+        </idopont>
+        <helyszin>XXX</helyszin>
+        <oktato>Szabó Norbert</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+    <ora id="o24" tipus="eloadas">
+        <kurzusnev>Windows rendszergazda</kurzusnev>
+        <idopont>
+            <nap>2024-12-13</nap>
+            <tol>16:00</tol>
+            <ig>19:20</ig>
+        </idopont>
+        <helyszin>In/101</helyszin>
+        <oktato>Wagner György</oktato>
+        <szak>Mérnökinformatikus BSC</szak>
+    </ora>
+</orarend>

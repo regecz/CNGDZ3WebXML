@@ -9,7 +9,7 @@
             <ig>19:20</ig>
         </idopont>
         <helyszin>OnLine!</helyszin>
-        <oktato>Dr- Mileff Péter</oktato>
+        <oktato>Dr. Mileff Péter</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o2" tipus="eloadas">
@@ -20,7 +20,7 @@
             <ig>19:20</ig>
         </idopont>
         <helyszin>OnLine!</helyszin>
-        <oktato>Kunné Dr- Tamás Judit</oktato>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o3" tipus="eloadas">
@@ -31,7 +31,7 @@
             <ig>15:50</ig>
         </idopont>
         <helyszin>In/103</helyszin>
-        <oktato>Dr- Bednarik László</oktato>
+        <oktato>Dr. Bednarik László</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o4" tipus="eloadas">
@@ -42,11 +42,11 @@
             <ig>19:20</ig>
         </idopont>
         <helyszin>OnLine!</helyszin>
-        <oktato>Kunné Dr- Tamás Judit</oktato>
+        <oktato>Kunné Dr. Tamás Judit</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o5" tipus="eloadas">
-        <kurzusnev>Web technológiák 1-</kurzusnev>
+        <kurzusnev>Web technológiák 1.</kurzusnev>
         <idopont>
             <nap>2024-09-20</nap>
             <tol>08:30</tol>
@@ -64,7 +64,7 @@
             <ig>15:50</ig>
         </idopont>
         <helyszin>In/101</helyszin>
-        <oktato>Dr- Bednarik László</oktato>
+        <oktato>Dr. Bednarik László</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o7" tipus="eloadas">
@@ -75,11 +75,11 @@
             <ig>19:20</ig>
         </idopont>
         <helyszin>In/101</helyszin>
-        <oktato>Dr- Mileff Péter</oktato>
+        <oktato>Dr. Mileff Péter</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o8" tipus="eloadas">
-        <kurzusnev>Web technológiák 1-</kurzusnev>
+        <kurzusnev>Web technológiák 1.</kurzusnev>
         <idopont>
             <nap>2024-09-27</nap>
             <tol>08:30</tol>
@@ -108,7 +108,7 @@
             <ig>15:50</ig>
         </idopont>
         <helyszin>In/101</helyszin>
-        <oktato>Dr- Bednarik László</oktato>
+        <oktato>Dr. Bednarik László</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o11" tipus="eloadas">
@@ -141,7 +141,7 @@
             <ig>19:20</ig>
         </idopont>
         <helyszin>In/202</helyszin>
-        <oktato>Dr- Mileff Péter</oktato>
+        <oktato>Dr. Mileff Péter</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o14" tipus="eloadas">
@@ -207,7 +207,7 @@
             <ig>19:20</ig>
         </idopont>
         <helyszin>In/202</helyszin>
-        <oktato>Dr- Mileff Péter</oktato>
+        <oktato>Dr. Mileff Péter</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o20" tipus="eloadas">
@@ -229,7 +229,7 @@
             <ig>15:50</ig>
         </idopont>
         <helyszin>In/101</helyszin>
-        <oktato>Dr- Bednarik László</oktato>
+        <oktato>Dr. Bednarik László</oktato>
         <szak>Mérnökinformatikus BSC</szak>
     </ora>
     <ora id="o22" tipus="eloadas">
