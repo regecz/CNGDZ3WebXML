@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="studentCNGDZ3.xsd">
+    <student id="01">
+        <keresztnev>Péter</keresztnev>
+        <vezeteknev>Fekete</vezeteknev>
+        <becenev>Petya</becenev>
+        <kor>22</kor>
+    </student>
+    <student id="02">
+        <keresztnev>Dora</keresztnev>
+        <vezeteknev>Kék</vezeteknev>
+        <becenev>dorka</becenev>
+        <kor>20</kor>
+    </student>
+    <student id="03">
+        <keresztnev>Andrea</keresztnev>
+        <vezeteknev>Zsoldos</vezeteknev>
+        <becenev>andi</becenev>
+        <kor>18</kor>
+    </student>
+</class>
