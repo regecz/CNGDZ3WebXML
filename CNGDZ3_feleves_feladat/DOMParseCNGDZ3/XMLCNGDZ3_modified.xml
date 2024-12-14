@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><Adatbazis xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XMLSchemaCNGDZ3.xsd">
+    <!-- Típusok -->
+    <Tipusok>
+        <Tipus TNev="Bútor" TipKod="1"/>
+        <Tipus TNev="Elektromos eszköz" TipKod="2"/>
+        <Tipus TNev="Konyhai felszerelés" TipKod="3"/>
+    </Tipusok>
+
+    <!-- Termékek -->
+    <Termekek>
+        <Termek TerKod="101" TerNev="Szék" TermekAr="5000" TipKod="1"/>
+        <Termek TerKod="102" TerNev="Asztal" TermekAr="15000" TipKod="1"/>
+        <Termek TerKod="201" TerNev="Hűtő" TermekAr="80000" TipKod="2"/>
+        <Termek TerKod="202" TerNev="Sütő" TermekAr="45000" TipKod="3"/>
+        <Termek TerKod="203" TerNev="Fazék" TermekAr="12000" TipKod="3"/>
+    </Termekek>
+
+    <!-- Rendelések -->
+    <Rendelesek>
+        <Rendeles Bevetel="25000" DID="1" Datum="2024-01-15" RSzam="R001" VID="1001">
+            <Kiszallitas Ker-e="true" SzallitasiAr="1500"/>
+        </Rendeles>
+        <Rendeles Bevetel="5000" DID="2" Datum="2024-01-20" RSzam="R002" VID="1002">
+            <Kiszallitas Ker-e="false"/>
+        </Rendeles>
+        <Rendeles Bevetel="12500" DID="3" Datum="2024-01-25" RSzam="R003" VID="1003">
+            <Kiszallitas Ker-e="true" SzallitasiAr="2000"/>
+        </Rendeles>
+    </Rendelesek>
+
+    <!-- Dolgozók -->
+    <Dolgozok>
+        <Dolgozo DID="1" Elerheto="true" Nev="Kovács Béla" TelSzam="+36123456789"/>
+        <Dolgozo DID="2" Elerheto="false" Nev="Nagy Anna" TelSzam="+36198765432"/>
+        <Dolgozo DID="3" Elerheto="true" Nev="Szabó Péter" TelSzam="+36201234567"/>
+    </Dolgozok>
+
+    <!-- Vásárlók -->
+    <Vasarlok>
+        <Vasarlo Nev="Szabó János" SzuletesiIdo="1980-05-15" VID="1001" VTelSzam="+36201234567">
+            <Lakcim>
+                <Iranyitoszam>1011</Iranyitoszam>
+                <Telepules>Budapest</Telepules>
+                <UtcaesHazszam>Fő utca 10</UtcaesHazszam>
+                <Emelet>2</Emelet>
+            </Lakcim>
+        </Vasarlo>
+        <Vasarlo Nev="Kiss Éva" SzuletesiIdo="1992-03-22" VID="1002" VTelSzam="+36207654321">
+            <Lakcim>
+                <Iranyitoszam>6720</Iranyitoszam>
+                <Telepules>Szeged</Telepules>
+                <UtcaesHazszam>Kossuth utca 5</UtcaesHazszam>
+                <Emelet>1</Emelet>
+            </Lakcim>
+        </Vasarlo>
+        <Vasarlo Nev="Tóth Gábor" SzuletesiIdo="1985-08-30" VID="1003" VTelSzam="+36203456789">
+            <Lakcim>
+                <Iranyitoszam>8200</Iranyitoszam>
+                <Telepules>Veszprém</Telepules>
+                <UtcaesHazszam>Petőfi utca 12</UtcaesHazszam>
+                <Emelet>3</Emelet>
+            </Lakcim>
+        </Vasarlo>
+    </Vasarlok>
+</Adatbazis>

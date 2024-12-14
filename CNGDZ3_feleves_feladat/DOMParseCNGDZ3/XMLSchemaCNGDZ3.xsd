@@ -1,0 +1,118 @@
+<!-- XMLSchemaNeptunkod.xsd -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+    
+    <!-- Gyökérelem -->
+    <xs:element name="Adatbazis">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Tipusok" type="TipusokType"/>
+                <xs:element name="Termekek" type="TermekekType"/>
+                <xs:element name="Rendelesek" type="RendelesekType"/>
+                <xs:element name="Dolgozok" type="DolgozokType"/>
+                <xs:element name="Vasarlok" type="VasarlokType"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <!-- Típusok -->
+    <!-- A Típusok gyűjtő elemének típusa -->
+    <xs:complexType name="TipusokType">
+        <xs:sequence>
+            <xs:element name="Tipus" type="TipusType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Egy Típus elemet leíró típus -->
+    <xs:complexType name="TipusType">
+        <xs:attribute name="TipKod" type="xs:int" use="required"/>
+        <xs:attribute name="TNev" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- Termékek -->
+    <!-- A Termékek gyűjtő elemének típusa -->
+    <xs:complexType name="TermekekType">
+        <xs:sequence>
+            <xs:element name="Termek" type="TermekType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Egy Termék elemet leíró típus -->
+    <xs:complexType name="TermekType">
+        <xs:attribute name="TerKod" type="xs:int" use="required"/>
+        <xs:attribute name="TerNev" type="xs:string" use="required"/>
+        <xs:attribute name="TermekAr" type="xs:decimal" use="required"/>
+        <xs:attribute name="TipKod" type="xs:int" use="required"/>
+    </xs:complexType>
+
+    <!-- Rendelések -->
+    <!-- A Rendelesek gyűjtő elemének típusa -->
+    <xs:complexType name="RendelesekType">
+        <xs:sequence>
+            <xs:element name="Rendeles" type="RendelesType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Egy Rendelés elemet leíró típus -->
+    <xs:complexType name="RendelesType">
+        <xs:sequence>
+            <xs:element name="Kiszallitas" type="KiszallitasType" minOccurs="0"/>
+        </xs:sequence>
+        <xs:attribute name="RSzam" type="xs:string" use="required"/>
+        <xs:attribute name="Datum" type="xs:date" use="required"/>
+        <xs:attribute name="Bevetel" type="xs:decimal" use="required"/>
+        <xs:attribute name="DID" type="xs:int" use="required"/>
+        <xs:attribute name="VID" type="xs:int" use="required"/>
+    </xs:complexType>
+
+    <!-- Kiszállítás -->
+    <xs:complexType name="KiszallitasType">
+        <xs:attribute name="Ker-e" type="xs:boolean" use="required"/>
+        <xs:attribute name="SzallitasiAr" type="xs:decimal" use="optional"/>
+    </xs:complexType>
+
+    <!-- Dolgozók -->
+    <!-- A Dolgozók gyűjtő elemének típusa -->
+    <xs:complexType name="DolgozokType">
+        <xs:sequence>
+            <xs:element name="Dolgozo" type="DolgozoType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Egy Dolgozó elemet leíró típus -->
+    <xs:complexType name="DolgozoType">
+        <xs:attribute name="DID" type="xs:int" use="required"/>
+        <xs:attribute name="Nev" type="xs:string" use="required"/>
+        <xs:attribute name="TelSzam" type="xs:string" use="required"/>
+        <xs:attribute name="Elerheto" type="xs:boolean" use="required"/>
+    </xs:complexType>
+
+    <!-- Vásárlók -->
+    <!-- A Vásárlók gyűjtő elemének típusa -->
+    <xs:complexType name="VasarlokType">
+        <xs:sequence>
+            <xs:element name="Vasarlo" type="VasarloType" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <!-- Egy Vásárló elemet leíró típus -->
+    <xs:complexType name="VasarloType">
+        <xs:sequence>
+            <xs:element name="Lakcim" type="LakcimType"/>
+        </xs:sequence>
+        <xs:attribute name="VID" type="xs:int" use="required"/>
+        <xs:attribute name="Nev" type="xs:string" use="required"/>
+        <xs:attribute name="SzuletesiIdo" type="xs:date" use="required"/>
+        <xs:attribute name="VTelSzam" type="xs:string" use="required"/>
+    </xs:complexType>
+
+    <!-- Lakcím -->
+    <xs:complexType name="LakcimType">
+        <xs:sequence>
+            <xs:element name="Iranyitoszam" type="xs:int"/>
+            <xs:element name="Telepules" type="xs:string"/>
+            <xs:element name="UtcaesHazszam" type="xs:string"/>
+            <xs:element name="Emelet" type="xs:int" minOccurs="0"/>
+        </xs:sequence>
+    </xs:complexType>
+
+</xs:schema>
